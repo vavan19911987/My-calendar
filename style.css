@@ -1,0 +1,42 @@
+table {
+	border: 1px solid;
+}
+
+tr td {
+	border: 1px solid;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+
+}
+th {
+	border: 1px solid;
+	width: 100px;
+	color: red;
+
+}
+.notes {
+	background-color: #eeeeee;
+	margin-left: 50px;
+	width: 50%;
+
+}
+
+h1 {
+	text-align: center;
+	color: yellowgreen
+}
+
+h2 {
+	text-align: center;
+	color: green
+}
+.table {
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	padding: 20px;
+	
+}
