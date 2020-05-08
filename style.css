@@ -17,9 +17,8 @@ th {
 }
 .notes {
 	background-color: #eeeeee;
-	margin-left: 50px;
-	/* width: 50%; */
-	/* flex-basis: 50% */
+	margin-left: 5px;
+	flex-basis: 50%;
 
 }
 
@@ -34,13 +33,11 @@ h2 {
 }
 .table {
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
 }
 
 .calendar {
-/* flex-basis: 40%; */
-display:
+flex-basis: 50%;
+margin-bottom: 20px;
 }
 
 p {
@@ -48,8 +45,15 @@ p {
 	
 }
 
+
+
 @media (max-width: 786px) {
-	.notes{
+	.table{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.notes {
+
 		width: 100%;
 		padding: 0;
 		margin: 20px 0 0 0;
