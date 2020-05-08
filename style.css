@@ -18,7 +18,8 @@ th {
 .notes {
 	background-color: #eeeeee;
 	margin-left: 50px;
-	width: 50%;
+	/* width: 50%; */
+	/* flex-basis: 50% */
 
 }
 
@@ -37,7 +38,23 @@ h2 {
 	flex-wrap: wrap;
 }
 
+.calendar {
+/* flex-basis: 40%; */
+display:
+}
+
 p {
 	padding: 20px;
 	
+}
+
+@media (max-width: 786px) {
+	.notes{
+		width: 100%;
+		padding: 0;
+		margin: 20px 0 0 0;
+	}
+	.calendar {
+		display: contents
+	}
 }
