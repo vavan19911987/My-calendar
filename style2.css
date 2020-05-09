@@ -6,3 +6,19 @@
 .july2020 {
 	display: none;
 }
+
+.password {
+
+	display: none;
+}
+
+.password a {
+
+	color: red;
+	text-decoration: none;
+}
+
+.password th {
+
+	color: green;
+}
