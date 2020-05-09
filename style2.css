@@ -8,17 +8,14 @@
 }
 
 .password {
-
 	display: none;
 }
 
 .password a {
-
 	color: red;
 	text-decoration: none;
 }
 
 .password th {
-
 	color: green;
 }
