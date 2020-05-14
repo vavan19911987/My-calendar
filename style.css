@@ -17,8 +17,8 @@ th {
 }
 .notes {
 	background-color: #eeeeee;
-	margin-left: 5px;
 	flex-basis: 50%;
+	margin-right: 10px;
 
 }
 
@@ -35,9 +35,19 @@ h2 {
 	display: flex;
 }
 
+span {
+	font-weight: bold;
+	 color: blue;
+	font-size: 40px;
+	border: 5px dashed red;
+	text-align: center;
+	display: block;
+}
+
 .calendar {
 flex-basis: 50%;
 margin-bottom: 20px;
+margin-left: 10px;
 }
 .may {
 	/* background: url('img/may.jpg') 100%, 100% no-repeat; */
