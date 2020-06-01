@@ -65,6 +65,10 @@ p {
 	
 }
 
+table>th:nth-child(3) {
+	color: rgb(17, 223, 117);
+}
+
 
 
 @media (max-width: 786px) {
